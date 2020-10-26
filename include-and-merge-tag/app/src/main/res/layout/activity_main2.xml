@@ -7,16 +7,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <include
-        android:id="@+id/layout_top"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        layout="@layout/layout_top2"/>
+    <include layout="@layout/layout_top2"/>
 
-    <include layout="@layout/layout_bottom2"
-        app:layout_constraintTop_toBottomOf="@+id/layout_top"
+    <include layout="@layout/layout_bottom2"/>
+
+    <Button
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_width="match_parent"/>
+        android:layout_gravity="center"
+        android:text="Order"/>
 
 </LinearLayout>
