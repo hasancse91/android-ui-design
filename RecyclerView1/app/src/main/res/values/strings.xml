@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecyclerView-1</string>
+    <string name="price_label">Price</string>
+    <string name="price_format">%d TK</string>
+</resources>
